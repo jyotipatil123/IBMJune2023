@@ -1,0 +1,337 @@
+Day 2 discussion 
+
+Questions : 
+1. what is algorithm ?  vanshika
+2. what is data structures ? Pragya
+3. What is array ?   sandeep
+4. what is stack ? areez
+5. what type of operations --stack ? Akankshya
+6. what is queue ? Siva
+7. what type of operations --queue ? rashid
+8. what is linkedlist ? deepika
+9. what is doubly linked list ? umar
+10. operations -- doubly linked list ? Pratik
+11.  what is singly linked list ? swetashree
+12.  operations --singly linked list ? 
+13.  real time examples --linked list ? 
+      browser history
+      music player
+      video browser
+      contact logs
+      shopping cart
+14.  linear search ? bhawani
+15.  binary search ?  abhinav, akankhya
+16.  benefits of linear search ? sneha , umar, areez
+17.  benefits of binary search ?  deepika
+18.  benefits of data structures ? umar, pragya
+19.  how to write algorithms ? 
+20.  benefits of algorithms  ?
+
+=================================================================================
+Programming fundamentals :
+----------------------------
+
+SDLC
+   system development life cycle
+   Phases :   requirement, analysis , development, testing, deployment, maintainance
+
+Application : collection of programs
+Program : collection of instructions
+
+Psedocode/ algorithm
+flow charts, .....
+
+
+// Flow charts 
+
+1.  Create the flow charts : 
+
+a. accept 2 numbers and display addition, subtraction results.
+b. accept 2 string and display concatenation result.
+c. accept 2 numbers and display multiplication, division results.
+d. accept your id, name, location and display all the details. 
+e. calculate simple interst. 
+
+conditional statements
+if, switch(case)
+      case of variable
+      end case 
+
+switch(age)  
+{
+  case 10 : display age is 10
+            break;
+
+  ....
+  default :  display ....
+            break;
+}  
+
+
+
+Loops : iterators
+for
+while
+do_while
+repeat_until
+
+Github : 
+    
+functions : 
+    
+
+main()
+{
+  .....
+  ....
+  add()
+}
+
+add()
+{
+  ....
+  ....
+}
+
+public functions
+static functions
+public static functions 
+
+compiler 
+Converts source code to object code. 
+debugging 
+The process of removing errors from a program. 1) compiler 2) linker 3) logic linker 
+Connects or links object files into an executable file. 
+loader 
+Part of the operating system that loads executable files into memory and directs the CPU to start running the program. 
+pre-processor 
+The first step the compiler does in converting source code to object code. 
+text editor 
+A software program for creating and editing ASCII text files. 
+warning 
+A compiler alert that there might be a problem. 
+
+
+
+cases :
+  camel case
+  lower case
+  upper case
+  sentence case
+  snake case 
+
+camel case 
+The practice of writing compound words or phrases such that each word or abbreviation in the middle of the phrase begins with a capital letter, with no intervening spaces or punctuation. 
+Pascal case 
+The practice of writing compound words or phrases such that each word or abbreviation in the phrase begins with a capital letter, including the first letter, with no intervening spaces or punctuation. 
+reserved word 
+Words that cannot be used by the programmer as identifier names because they already have a specific meaning within the programming language. 
+snake case 
+The practice of writing compound words or phrases in which the elements are separated with 
+one underscore character (_) and no spaces, with each element’s initial letter usually lowercased within the compound and the first letter either upper or lower case. 
+
+
+class 
+
+int, double, char, string
+
+var , const 
+
+c#
+   int    32 bit signed integer
+   int16
+   int32
+   int64
+
+
+Javascript : 
+    data types  :   var        number, boolean, date, string.......
+
+    a=10;
+    console.log(a);
+
+    a='c';
+    console.log(a);
+ 
+    a="ibm";
+    console.log(a);
+    
+-------------------------------------------------
+123.2362342398989898
+123.24
+
+ASCII 
+American Standard Code for Information Interchange character 
+A data type representing single text characters like the alphabet, numeral digits, punctuation, etc. 
+double quote marks 
+Used to create string type data within most programming languages. 
+single quote marks 
+Used to create character type data within languages that differentiate between string and character data types. 
+string 
+A series or array of characters as a single piece of data. 
+
+NaN 
+Reserved word used to indicate a non-numeric value in a numeric variable. 
+null 
+Reserved word used to represent a missing value or invalid value. 
+
+
+
+associativity 
+Determines the order in which the operators of the same precedence are allowed to manipulate the operands. 
+evaluation 
+The process of applying the operators to the operands and resulting in a single value. expression 
+A valid sequence of operand(s) and operator(s) that reduces (or evaluates) to a single value. 
+operand 
+A value that receives the operator’s action. 
+operator 
+A language-specific syntactical token (usually a symbol) that causes an action to be taken on one or more operands. 
+parentheses 
+Change the order of evaluation in an expression. You do what’s in the parentheses first. precedence 
+Determines the order in which the operators are allowed to manipulate the operands. 
+assignment 
+An operator that changes the value of a modifiable data object. 
+
+
+Division and modulus : 
+10/2 =====> 5    quotient 
+10%2 =====> 0    remainder 
+
+integer division 
+Division with no fractional parts. modulus 
+The remainder part of integer division. 
+
+
+++ increment operator
+-- decrement operator
+
+ a++   ++a   ?? prefix, postfix 
+ a--   --a 
+
+
++ -   ?  -
+- +   ?  -
+- -   ?  +
++ +   ?  +
+
+minus 
+Aka unary negative. plus 
+Aka unary positive. 
+unary negative 
+An operator that causes negation. unary positive 
+A worthless operator almost never used. 
+
+
+
+Lvalue 
+The requirement that the operand on the left side of the assignment operator is modifiable, usually a variable. 
+Rvalue 
+Pulls or fetches the value stored in a variable or constant. 
+
+double x;
+int a;
+
+x=a;
+================
+a=x;      xxxxxxx
+----------------
+x=(int) a; 
+===================================================================\
+flow chart 
+   calculator program ---addition, subtraction, multiplication, divison, modulus
+
+call by value
+call by reference
+
+parameters and arguments 
+
+call by reference 
+Parameters passed by calling functions may be modified by called functions. 
+Call by Value vs. Call by Reference
+call by value 
+Parameters passed by calling functions cannot be modified by called functions
+
+
+return 
+A branching control structure that causes a function to jump back to the function that called it. 
+
+
+void .... no return 
+void data type 
+A data type that has no values or operators and is used to represent nothing.
+
+Scope :  
+data area 
+A part of an object code file used for storage of data. 
+global scope 
+Data storage defined outside of a function. local scope 
+Data storage defined inside of a function. 
+scope 
+The area of a source code file where an identifier name is recognized. 
+stack 
+A part of the computer’s memory used for storage of data. 
+ 
+
+class
+   member varialbes and member functions 
+
+access specifiers : private, public , protected 
+
+Program : 
+
+   // COMMENTS 
+   INT X=10;
+   int y=20;
+   FLOAT Z=10.3333;
+
+
+=======================================================================================
+simple interest : 
+
+int principal_amt;
+int term;
+float rate_of_interest;
+
+braces 
+Used to identify a block of code in languages such as C++, C#, Java, and JavaScript. 
+consistent 
+A rule that says to type identifier names in upper and lower case consistently throughout your source code. comments 
+Information inserted into a source code file for documentation of the program. 
+documentation 
+A method of preserving information useful to others in understanding an information system or part thereof. 
+indention 
+A method used to make sections of source code more visible. 
+meaningful 
+A rule that says identifier names must be easily understood by another reading the source code. 
+vertical alignment 
+A method of listing items vertically so that they are easier to read quickly. 
+
+
+
+#include <math.h>
+#include <conio.h>
+
+Math.Pi
+Math.pow
+Math.sqrt
+Math.log
+Math.log10
+sin, cos, tan, cot, asin, acos, atan
+
+
+abs 
+A function within a standard library which stands for absolute value. 
+confidence 
+The reliance that Standard Library functions work properly. 
+standard library 
+A set of specific task functions that have been added to the programming language for universal use. 
+
+=========================xxxxxxxxxxxxx=====================
+
+
+
+
+
+
+
+
