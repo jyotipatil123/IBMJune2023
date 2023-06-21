@@ -1,0 +1,56 @@
+21st June 2023
+SQL server discussion
+
+structured query language
+
+commands 
+query window
+
+types : 
+ddl  data definition language
+dml  data manipulation language
+dcl  data control language
+
+Data --random 
+DBMS
+RDBMS
+   relational database management system 
+
+keys : alternate, primary , foreign........
+
+DDL
+   create database
+   create table
+   alter table
+   drop 
+========================================================================================
+Practice examples : 
+
+
+1. create a database : dell
+create tables
+   1. country   countryid   countryname 
+   2. state     stateid     statename 
+
+2. create a table for customer
+
+custid, custname, salary, city, country 
+
+3. create a table for employee
+
+empid, empname, empsalary, empphone, city
+
+4. insert 5 records in customer
+5. insert 5 records in employee 
+
+
+
+
+
+
+
+
+
+
+
+
