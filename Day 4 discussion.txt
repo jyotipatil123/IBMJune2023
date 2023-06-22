@@ -1,0 +1,118 @@
+Day 4 discussion 
+
+Questions : 
+
+1.  what is algorithm ? Siva / Deepika
+2.  what is data structure ? areez /vanshika
+3.  types of data structures ?  pragya
+4.  stack, queue ? sneha
+5.  stack , heap ? pragya
+6.  linkedlist ? vanshika /pratik
+7.  types of linkedlist ? 
+8.  remove a node from doubly linked list ? tejas
+9.  SQL ?
+10. DBMS , RDBMS ?
+11. types of databases ?
+12. DDL, DML ?
+create, drop, alter 
+insert, delete, update 
+13. joins ? types ? 
+14. inner joins and outer joins ? 
+15. keys ? 
+16. candidate key ? 
+17. foreign key ? 
+1st table              2nd table 
+col PK                 PK       col
+18.  uniqueness ?  PK uniquely identified in the entire table 
+19.  constraints ? 
+     primary key contraint
+     foreign
+     default
+     check
+     not null
+     unique 
+
+create table t1
+{
+   id int unique not null  , 
+   name varchar(100)
+}
+
+===============================================================================
+
+HTML    JS Javascript    CSS (cascade style sheet)
+
+Hyper Text Markup Language 
+designing 
+
+tags 
+- static web pages 
+- browsers : IE, opera mini, chromium, chrome, firefox, bing, microsft edge....
+IDE xxxx
+any editors : atom, vi, vim , notepad, notepad++, brackets
+              vs code, visual studio .........
+
+controls : button, textbox, radio, checkbox, textarea, password.........submit
+
+Formatting tags : 
+b bold       
+i italic   
+u underline   
+sup  superscript 
+sub subscript
+                
+strong bold    
+em italic  
+ins 
+ del 
+  strike  
+ big  
+small 
+
+Heading tags :  h1.....h6
+
+breaking line :  <br>    </br>   <br/>
+horizontal line : <hr>
+
+HTML color codes : 
+direct colors : red, green , blue, white...........
+hexa decimal values 
+RGB
+16 million color combinations HTML
+
+Tables : 
+tr, th, td, cellspacing, bgcolor, cellpadding, border 
+theader, tfooter, tbody ,colspan, rowspan
+
+images :   .bmp, .jpg, .jpeg, png......
+browsers ?? 
+
+hyperlink : <a>....
+
+
+
+C:\Users\Asus\Desktop\Simpli Learn1\cssprgs\flowers.gif
+
+==============================================================
+Visual studio 2022
+   community edition
+SQL server 2019
+  developer editon
+
+Editor : 
+   brackets ---HTML JS CSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
