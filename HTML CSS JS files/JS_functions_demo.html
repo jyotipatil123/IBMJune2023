@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function in Javascript</title>
+    <script>
+       function add()
+        {
+            a=10;
+            b=20;
+            document.write("Addition result is : "+(a+b));
+        }
+        
+        function addition()
+        {
+            alert("welcome");
+            prompt("Enter your name : ");
+            confirm("Do you want to delete ?");
+        }
+        
+        function multiplication(x,y)
+        {
+            c=x*y;
+            alert(c);
+        }
+        
+        
+        function addresult(g, h)
+        {
+            document.write("Addition result is :"+(g+h));
+        }
+    </script>
+</head>
+<body>
+    <p>Calculator program </p>
+    <button onclick="add()">click here </button>
+    
+    <button onclick="addition()">click here again</button>
+    
+    <input type="button" value="multiply" onclick="multiplication(10,2)">
+    
+    <hr>
+     Enter first number  :  <input type="text" id="t1">
+    </br>
+     Enter second number :  <input type="text" id="t2">
+    </br>
+    <input type="button" value="click here" onclick="addresult(parseInt(t1.value), parseInt(t2.value))">
+    
+</body>
+</html>
