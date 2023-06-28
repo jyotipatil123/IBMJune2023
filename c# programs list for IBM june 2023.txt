@@ -1,0 +1,67 @@
+Programs
+
+if, switch, arrays...oops
+
+1.  Display these below structures  :
+
+*                               india 
+* *                            india    india
+* * *                         india     india     india
+
+1
+1 1
+1  1 1
+
+1
+1  2  3
+1  2  3  4
+
+1
+2  3
+4  5  6
+
+2.  Arrays  : multiplication of matrices .
+
+1   2     x      1    2
+3   4             3    4
+
+1x1+2x3       1x2+2x4
+3x1+4x3        3x2+4x4
+
+1+6         2+8
+3+12       6+16
+
+7       10
+15      22
+
+
+
+3.  display all even numbers from 1 matrix.
+1 2 3 
+2 3 4 
+5 5 7
+
+4. display all odd numbers .
+5. display sum of all numbers in the matrix.
+6. display numbers which are divisible by 5 in the matrix. 
+7.  display all principal diagonal elements.
+8.  display all secondary diagonal elements. 
+9.  display sum of principal diagonal elements.
+10. display sum of secondary diagonal elements. 
+
+
+OOPS  :
+1.  create an abstract class bank
+     add credit and debit abstrtact fuctions.
+     implement them in derived class
+     and display the content. 
+
+2.  create an interface bank
+     add credit and debit abstrtact fuctions.
+     implement them in derived class
+     and display the content.
+
+
+
+
+
