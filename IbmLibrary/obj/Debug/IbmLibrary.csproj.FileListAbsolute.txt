@@ -1,0 +1,6 @@
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\bin\Debug\IbmLibrary.dll
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\bin\Debug\IbmLibrary.pdb
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\obj\Debug\IbmLibrary.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\obj\Debug\IbmLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\obj\Debug\IbmLibrary.dll
+C:\Users\Asus\source\repos\ConsoleApp_IBMJune2023\IbmLibrary\obj\Debug\IbmLibrary.pdb

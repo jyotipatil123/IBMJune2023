@@ -1,0 +1,83 @@
+Day 9 discussion 
+
+C# 
+=================================================================
+
+Generics
+   class
+   delegate
+   functions/method
+   anonymous functions
+---------------------------
+delegates
+function pointers with type safe 
+
+
+   single cast
+   multi cast
+   
+function pointers 
+   function----------> pointer
+   function ---------> pointer
+
+pointer -----> number of functions
+--------------------------------
+events
+
+web application, windows applications  ---controls button, drop down
+
+========================================================================
+Practice program :
+calculator program
+accept 2 numbers : send them. 
+addition, subtraction, multiplication, division, modulus
+1.  create static functions
+2.  create public functions 
+========================================================================
+
+constructors : 
+
+intialize the values 
+this is a special method which has same name as that of the class
+no return type 
+
+types : 
+static
+copy
+           paramerized 
+           default 
+           private 
+=====================================================================
+
+class library 
+
+
+
+
+======================================================================
+Monday : 
+   properties
+   exception handling
+   file handling 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
