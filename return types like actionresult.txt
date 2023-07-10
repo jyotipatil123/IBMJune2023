@@ -1,0 +1,27 @@
+Types of Action
+Actions basically return different types of action results. The ActionResult class is the base for all action results. Following is the list of different kind of action results and its behavior.
+
+Sr.No.	Name and Behavior
+1.ContentResult  :      Returns a string
+
+2.FileContentResult :   Returns file content
+
+3.FilePathResult  :     Returns file content
+
+4.FileStreamResult :    Returns file content
+
+5.EmptyResult :  Returns nothing
+
+6.JavaScriptResult :  Returns script for execution
+
+7.JsonResult : Returns JSON formatted data
+
+8.RedirectToResult : Redirects to the specified URL
+
+9.HttpUnauthorizedResult :Returns 403 HTTP Status code
+
+10.RedirectToRouteResult :Redirects to different action/different controller action
+
+11.ViewResult :Received as a response for view engine
+
+12. PartialViewResult :Received as a response for view engine
