@@ -1,0 +1,42 @@
+﻿@model MVC_IBMJune2023.Models.Employee1
+@using MVC_IBMJune2023.Models
+
+@{
+    ViewBag.Title = "stronglytypedhtmlhelpersdemo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>strongly typed htmlhelpers demo</h2>
+
+<div>
+    <h3>Label  Example</h3>
+    @Html.LabelFor(model => model.Name, new { @class = "label-control" })
+
+    <h3>Text box Example</h3>
+    @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+
+    <h3>Text Box Example 2</h3>
+    @Html.TextAreaFor(model => model.Address, new { @class = "form-control", rows = "5" })
+    
+    <h3>Password for example</h3>
+    @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+    
+    <h3>Radio Button Example</h3>
+    @Html.RadioButtonFor(model => model.Gender, true, new { id = "male-true" })
+    @Html.Label("male-true", "Male")
+    
+    @Html.RadioButtonFor(model => model.Gender, false, new { id = "female-true" })
+    @Html.Label("female-true", "Female")
+
+    <h3>Check Box Example</h3>
+    @Html.CheckBoxFor(model => model.AgreeTerm)
+
+    <h3>List Box Example</h3>
+    @Html.ListBoxFor(model => model.skills, new SelectList(Enum.GetValues(typeof(skills))),
+                                            new { @class = "form-control" })
+
+    <h3>Drop Down List Example</h3>
+    @Html.DropDownListFor(model => model.city, new SelectList(Enum.GetValues(typeof(city))),
+                                             "Select City", new { @class = "form-control" })
+
+</div>

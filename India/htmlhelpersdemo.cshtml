@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "htmlhelpersdemo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>htmlhelpersdemo</h2>
+
+@*<h1>Inline Html Helpers </h1>
+
+    @helper AddHelper(int a, int b)
+    {
+        <label>  Addition of two No = @(a + b)</label>
+    }
+
+    <div style="background-color:azure;">
+        <label> @AddHelper(100, 200)</label>
+    </div>
+
+
+
+
+    @helper subHelper(int a, int b)
+    {
+        <label>Subtraction of two No = @(a - b)</label>
+    }
+
+    <div style="background-color:azure;">
+        <label> @subHelper(100, 200)</label>
+    </div>
+
+
+
+
+    @helper MultAddHelper(int a, int b)
+    {
+        <label>Multiplication of two No = @(a * b)</label>
+    }
+
+    <div style="background-color:azure;">
+        <label> @MultAddHelper(100, 200)</label>
+    </div>
+
+
+
+
+
+    @helper DivisionHelper(int a, int b)
+    {
+        <label>Division of two No = @(a / b)</label>
+    }
+
+    <div style="background-color:azure;">
+        <label> @DivisionHelper(100, 200)</label>
+    </div>
+
+
+
+
+    <h4> List of items : ListHelper </h4>
+
+    @helper ListHelper(string[] strList)
+    {
+        <ol>
+            @foreach (var item in strList)
+            {
+                <li>@item</li>
+
+            }
+        </ol>
+    }
+
+    @{
+        string[] strBooks = new string[]
+             { "C#.NET", "ASP.NET MVC", "ASP.NET CORE", "VB.NET", "WEB API" };
+
+        string[] names = new string[]
+            { "Ananya","Akruti","Shanbhavi" };
+    }
+
+
+    <div id="div1" style="background-color:yellow;">
+        Book Name List: @ListHelper(strBooks)
+        Name List: @ListHelper(names)
+    </div>*@
+
+
+<h1> Standard HTML helpers </h1>
+
+<label>Enter first name : </label>
+@Html.TextBox("firstname")
+
+<label>Enter last name : </label>
+@Html.TextBox("lastname")
+
+<div>
+    <h3>Label example</h3>
+    @Html.Label("firstName", "First Name")
+
+    <h3>Text Box Example</h3>
+    @Html.TextBox("txtFirstName", "",
+            new { @class = "form-control", placeholder = "First Name" })
+
+    <h3>Text Area Example</h3>
+    @Html.TextArea("address", new { @class = "form-control", rows = "5" })
+
+    <h3>password Example</h3>
+    @Html.Password("password", " ", new { @class = "form-control" })
+
+    <h3>Radio Button Example</h3>
+    @Html.RadioButton("MaritalStatus", "Married", new { id = "IsMarried" }) Married
+
+    <h3>Check Box Example</h3>
+    @Html.CheckBox("htmlSkill") HTML 5
+
+
+    <h3>List Box Example</h3>
+    @Html.ListBox("Skills", new List<SelectListItem> {
+        new SelectListItem { Text="ASP.NET",Value="1"},
+        new SelectListItem { Text="MVC",Value="2"},
+        new SelectListItem { Text="SQL Server",Value="3"},
+        new SelectListItem { Text="Angular",Value="4"},
+        new SelectListItem { Text="Web API",Value="5"}
+    }, new { @class = "form-control" })
+
+
+    <h3>drop down List Example</h3>
+    @Html.DropDownList("Gender", new List<SelectListItem> {
+                new SelectListItem {Text="Select Gender",Value="-1" },
+                new SelectListItem {Text="Male",Value="1" },
+                new SelectListItem {Text="Female", Value="2" }
+                }, new { @class = "custom-select" })
+
+
+</div>

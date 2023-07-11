@@ -1,0 +1,217 @@
+﻿
+@{
+    ViewBag.Title = "razorsyntaxdemo";
+}
+
+<h2>razorsyntaxdemo</h2>
+
+@*<h4>Inline Expression </h4>
+    <h2>@DateTime.Now.ToShortDateString()</h2>
+
+    <hr />
+    <h4>Multi-statement Code block</h4>
+
+    @{
+        var date = DateTime.Now.ToShortDateString();
+        var message = "Hello World";
+    }
+    <h2>Today's date is: @date </h2>
+    <h3>@message</h3>
+
+    <h4>Display Text from Code Block</h4>
+
+    @{
+        var date1 = DateTime.Now.ToShortDateString();
+        string message1 = "Hello World!";
+        @:Today's date is: @date1
+        <br />
+        @message1
+    }
+
+    var, dynamic, object, data types
+    Practice program :
+    1. calculate simple interest and display inside the code block and
+    outside the code block. (input)
+
+    2. calculate area of cirlce, circumference of circle and display inside the code block and
+    outside the code block.
+
+    <h3>Practice program1</h3>
+    <h3>Simple Interest : Inside code block</h3>
+    @{
+        var principle = 100;
+        var rate = 4;
+        int time = 2;
+        int SI = (principle * rate * time) / 100;
+        @:Simple Interest is: @SI
+    }
+    <h3>Simple Interest :Outside code block</h3>
+    @{
+        var principle1 = 100;
+        var rate1 = 4;
+        int time1 = 2;
+        int SI1 = (principle1 * rate1 * time1) / 100;
+    }
+    <h5>SI is : @SI1</h5>
+    <br />
+    <hr />
+    <h3>Area and circumference : Inside the Code</h3>
+    @{
+        float pi = 3.14f;
+        float radius = 2.30f;
+        double area = pi * radius;
+        double Circumference = 2 * pi * radius;
+        @:area is : @area and Circumference is : @Circumference
+    }
+    <br />
+    <hr />
+    <h3>Area and circumference : Outside the Code</h3>
+    @{
+        float pi1 = 3.14f;
+        float radius1 = 2.30f;
+        double area1 = pi1 * radius1;
+        double Circumference1 = 2 * pi1 * radius1;
+    }
+    <h4>area is : @area1 and Circumference is : @Circumference1</h4>
+
+    <h4>If--else demo</h4>
+
+    @if (DateTime.IsLeapYear(DateTime.Now.Year))
+    {
+        @DateTime.Now.Year @:is a leap year.
+    }
+    else
+    {
+        @DateTime.Now.Year @:is not a leap year.
+    }
+
+    <h4> switch case</h4>
+    @{
+        int age = 18;
+    }
+
+    @switch (age)
+    {
+        case 12:<h4>Not valid for voting</h4>
+            break;
+        case 18: <h4>Valid for voting</h4>
+            break;
+        case 20: <h4> valid for voting-20</h4>
+            break;
+        default: <h4>Please enter 12, 18, 20</h4>
+            break;
+    }
+
+
+    1. calculate simple interest and display inside the code block and
+    outside the code block. (input)
+    <hr />
+
+    <label>Principal amount:</label>
+    <input type="text" id="p" />
+    <br />
+    <label>Rate of interest:</label>
+    <input type="text" id="r" />
+    <br />
+    <label>No. of years:</label>
+    <input type="text" id="n" />
+    <br />
+    <button type="submit" onclick="myfunction()">SUBMIT</button>
+    <br />
+    <h3 id="output"></h3>
+    <script>
+        function myfunction() {
+            var p = Number(document.getElementById("p").value);
+            var n = Number(document.getElementById("n").value);
+            var r = Number(document.getElementById("r").value);
+            var result = (p * n * r) / 100
+            document.getElementById("output").innerHTML = result
+        }
+    </script>*@
+
+
+<hr />
+<h1> Loops </h1>
+@for (int i = 0; i < 5; i++)
+{
+    @i.ToString()
+    <br />
+}
+@{
+    int x = 10;
+    while (x <= 50)
+    {
+        <h4>@x</h4>
+        x = x + 10;
+    }
+}
+
+@{
+    int x1 = 10;
+    do
+    {
+        <h4>welcome </h4>
+
+    } while (x1 != 10);
+}
+
+Practice programs :
+*                 1              1
+* *               2 3            1 1
+* * *             4 5 6          1 1 1
+
+@{
+    int print = 1;
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j <= i; j++)
+        {
+            <span>@print</span>
+            print = print + 1;
+        }
+        <br />
+    }
+}
+
+@{
+    for (int i = 1; i <= 3; i++)
+    {
+        for (int j = 1; j <= i; j++)
+        {
+            @("*");
+        }
+        <br />
+    }
+}
+
+@{
+    int SumOfEvenNumbers = 0;
+    int SumOfOddNumbers = 0;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        if (i % 2 == 0)
+        {
+            SumOfEvenNumbers = SumOfEvenNumbers + i;
+        }
+        else
+        {
+            SumOfOddNumbers = SumOfOddNumbers + i;
+        }
+    }
+}
+<h3>Sum of Even Numbers = @SumOfEvenNumbers</h3>
+<h3>Sum of Odd Numbers = @SumOfOddNumbers</h3>
+
+Let us meet @@office
+
+@{
+
+    int[] arr=new int[5] {2,3,4,5,6};
+
+    foreach (var item in arr)
+    {
+        <h4>@item</h4>
+    }
+
+}
