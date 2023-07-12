@@ -1,0 +1,142 @@
+Day 7 Discussion 
+
+c# 
+
+Questions : 
+
+c# --1.0..........11.0   xxx .net framework 
+
+char p='a';
+string s1="anurag";
+
+String 
+string 
+
+.net standard
+.net framework
+.net core 
+
+
+OOPS 
+
+OOA,  OOD,  OOP
+
+class : collection of member variables and member functions 
+        real time data
+        
+object : represent the class 
+
+int a;
+
+class object ; 
+
+4 pillars/features : 
+   inheritance : parent class, child class 
+      types : single level/ simple / single inheritance
+              multi level inheritance
+              multipathxxxxxxxx   multiple xxxxxxxxxx
+              hierarchical 
+              hybrid 
+
+   polymorphism :  many -forms
+        types : design time / function overloading , operator overloading 
+                run time    / function overriding 
+
+
+   
+   encapsulation
+   abstraction 
+Functions : 
+1. public void          object 
+2. static void          directly called 
+3. public static void   directly called 
+
+
+static ---only inside the class
+public -- inside and outside the class
+
+
+Encapsulation is defined as the wrapping up of data under a single unit. It is the mechanism that binds together code and the data it manipulates. In a different way, encapsulation is a protective shield that prevents the data from being accessed by the code outside this shield.
+
+Technically in encapsulation, the variables or data of a class are hidden from any other class and can be accessed only through any member function of its own class in which they are declared.
+As in encapsulation, the data in a class is hidden from other classes, so it is also known as data-hiding.
+Encapsulation can be achieved by: Declaring all the variables in the class as private and using C# Properties in the class to set and get the values of variables.
+
+Data Abstraction is the property by virtue of which only the essential details are exhibited to the user. The trivial or the non-essentials units aren’t exhibited to the user. 
+
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviors of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+
+
+Abstract classes : 
+
+abstract keyword for class 
+atleast 1 abstract method 
+any number of non abstract methods
+
+--- can not create object of abstract class
+
+
+
+types of classes : 
+1. static class
+2. partial class
+3. abstract class 
+4. sealed class 
+
+access specifiers : 
+1. private
+2. public
+3. protected
+4. internal
+5. protected internal 
+
+
+override : 
+                virtual           override
+                abstract          override 
+
+Interfaces : 
+collection of pure abstract functions
+or collection of only function signatures / only function names 
+interface keyword 
+
+interface objects can not be created 
+
+types : implicit ,                          explicit
+        without interface name            with interface name 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

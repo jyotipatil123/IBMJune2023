@@ -1,0 +1,63 @@
+Day 14 
+
+Asp.net MVC Day 1 
+=====================================================================================
+Asp.net Web Application --(.net framework)--- template 
+MVC
+
+MVC
+   vesions : 1, 2, 3, 4, 5 
+   6--MVC core 
+
+.net 5
+.net 6
+.net 7
+.net 8
+how to create MVC application ? 
+Folder structure 
+
+Model binding : 
+   create a model
+    bind the model with view
+   logic in controller
+===================================================================================
+Practice program : 
+create a customer class. Add customer properties like custid, custname, 
+custcity, custsalary etc. 
+bind in the view and display the results. 
+==================================================================================
+
+Passing the data from controller to view : 
+ViewBag
+ViewData
+TempData
+
+Return results : 
+Actionresult
+RedirectToRouteResult
+HTTPNotFoundResult
+JsonResult
+string() functions 
+============================================================
+
+Home Work : 
+
+Using ViewBag, ViewData and TempData : 
+
+Display  Friend's List : 
+   1. Ananya
+   2. Swati
+   3. Kavita
+   4. Keerti
+   5. Anirudh 
+
+
+
+
+
+
+
+
+
+
+

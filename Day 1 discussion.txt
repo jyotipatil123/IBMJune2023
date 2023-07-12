@@ -1,0 +1,61 @@
+Day 1 Discussion  
+
+19th June 2023
+=====================================================
+program 
+   addition 
+       ??? 2 numbers ?? ints, floats, double, long........any number 
+       user : 87    2 
+
+step 1 : start
+step 2 : input 2 numbers
+step 3 : initialize result =0
+step 4 : result=add two numbers 
+step 5  : display the result
+step 6 : end 
+
+
+Programs   Vs   Algorithm 
+detail          short 
+
+Algorithms : 
+
+1. WAA to display addition, subtraction, multiplication, 
+   division results.
+
+2. write algorithms : 
+   a.  accept your name and display "Hello ...your name " 
+   b.  accept a number and display  "Entered number is : number"
+   c.  accept 2 numbers and display addition, subtraction, multiplication, 
+   division results. 
+   d.  accept p, t , r and calculate simple interest. 
+
+
+result= (x*y*z) /100
+simpleinterest= (principal amt * term * rateofinterest)/100
+
+3   first   front   insert/enqueue
+5
+9
+1
+12
+15  
+16
+17  last   rear    remove/dequeue
+
+
+Data strcutures
+   singly linked list
+   doubly linked list
+   circular linked list
+       singly with circular
+       doubly with circular
+
+linear search
+binary search
+
+c programs-----> reference 
+
+
+
+

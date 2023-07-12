@@ -1,0 +1,26 @@
+Asp.net Day 3 
+
+Day 13 
+
+State management techniques :
+1. client side
+      cookies
+      query string
+              Response.Redirect
+              Request.Querystring
+      hidden fields
+      viewstate 
+
+2. server side 
+      sessions state
+      application state
+
+controls 
+   login
+
+
+user controls 
+
+lunch break till 2.40pm
+
+http://localhost:59271/validationsdemo.aspx

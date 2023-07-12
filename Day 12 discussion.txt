@@ -1,0 +1,34 @@
+Asp.net Day 2 discussion
+
+Day 12 discussion 
+===========================================================================================
+web.config : 
+  <appsettings>
+         ....................
+
+
+validation controls : 
+
+    validationsummary
+    requiredfield validator
+    compare validator
+    range validator
+    regular expression validator
+
+custom validator 
+
+===================================
+Themes : 
+   css -- themes
+.skin files are required 
+
+
+
+Extensions : 
+   .css
+   .js
+   .aspx
+   .aspx.cs
+   .aspx.vb
+   .config
+   .skin

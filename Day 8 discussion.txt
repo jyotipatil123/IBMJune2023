@@ -1,0 +1,26 @@
+Day 8 discussion
+
+c# 
+
+structures 
+  structures which holds different types of data. 
+  int, char, string............
+types : system defined / built in 
+        user defined 
+
+structures does not support inheritance 
+
+enums : holds set of constants 
+
+value types : strcutures, enum
+reference types : class, interface, array, delegates
+
+
+collections
+   stack
+   queue
+   sortedlist
+   hashtable
+   arraylist 
+
+Generics

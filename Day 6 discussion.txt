@@ -1,0 +1,121 @@
+C# discussion
+
+Day 6 
+===============================================================
+Program structure
+solution explorer
+
+console.writeline
+        write
+console.read
+        readline
+        readkey
+
+comments:
+        //  
+        /*   */   
+        ///
+/operators 
+            //assignment operator  =
+            // relational operator  <  >  <=  >=  != 
+            // logical operator  &&  ||   !
+            // comparison operators ==
+            // bitwise << >>
+            // arithmetic operators  + - *  /  %
+
+
+conditional statements
+   if, switch
+Loops 
+   for, while,do_while
+
+Arrays
+   foreach
+
+programs : 	
+1.  Accept a name. Display "welcome ....name" if it is your name
+    otherwise , display "bye.....name"
+
+2.  Accept all the details about an employee. and display the details
+
+3.  Accept month name and display month number. 
+
+--------------------------------------------------------------------
+switch 
+
+1.   Accept month number and display month name.
+
+2.   Accept month name and display month number. 
+
+
+for : 
+1.   display numbers from 1 to 50
+
+2.   display numbers from 50 to 1
+
+3.   display all even numbers from 100 to 200.
+
+-------------------------------------------------------------------------
+
+break
+continue
+
+Data types : 
+int, char, string, bool, float, double...............
+
+Arrays : 
+1. single dimensional
+2. double dimensional
+3. jagged arrays
+4. multi dimensional arrays
+
+var ====> implicitly typed local variable 
+
+
+Addition of matrices : 
+
+Enter 1st array elements :
+1
+2
+3
+4
+Matrix 1 is  :
+1  2
+3  4
+
+Enter 2nd array elements :
+1
+22
+33
+44
+Matrix 2 is  :
+1   22
+33  44
+
+Addition of matrices : 
+
+2    24
+36   48
+
+=========================================
+Home work :  row length  and column length ???
+===========================================
+Jagged array : 
+collection of single dimensional array
+
+           0
+         0 1 2 3
+0  {  0 {1,2},
+1     0 {3,5,6},
+2     0 {1,2,3,4}  }
+
+
+
+
+
+
+
+
+
+
+

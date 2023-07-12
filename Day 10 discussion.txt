@@ -1,0 +1,77 @@
+C# -- Day 10 
+
+Day 5 of c# discussion 
+
+==========================================================
+boxing and unboxing 
+
+
+
+
+copy constructor
+static constructor
+=============================================================================
+completed topics : 
+
+properties
+  readonly
+  writeonly
+  automatic   { get; set;}
+  read and write property 
+accessors : get, set 
+get()   set()xxxxxxxxxxxxx
+
+exception handling
+  user defined 
+  system defined 
+
+
+namespaces 
+
+Assembly : deployment unit of .net 
+.exe and .dll 
+executable files or dynamic link library 
+
+types : private, shared, satellite 
+
+file handling
+fileinfo
+driveinfo
+directoryinfo
+
+filestream
+file
+   appendalltext, appendalllines
+directory
+  create, move, copy, rename
+
+access specifiers
+   private, public, protected, internal , protected internal 
+
+===============================================================================
+console applications
+   read, write 
+public void 
+static void
+
+static ?
+constructors
+   types : private, parameterized, static, copy, default
+
+namespaces
+access specifiers : private, public, protected, internal, protected internal. 
+
+properties : read only, write only --get;set;
+
+exception handling : try, catch, finally ...., user defined, system defined
+
+assembly: types : private, shared, ............exe, dll
+
+
+
+
+
+
+
+
+

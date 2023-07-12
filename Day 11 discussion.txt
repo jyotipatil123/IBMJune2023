@@ -1,0 +1,63 @@
+Day 11 
+
+Day 1 Asp.net 
+
+asp  active server pages 
+
+web applications
+
+browsers : IE, chromium, chrome, edge, netscape..........
+
+browser compatibility issue 
+
+---------------------------------------------------------------
+web applications : 
+
+set / collection controls
+
+controls : validation, html, server, web parts, ajax, data .............
+UI user interface 
+
+asp.net web applications
+asp.net core applications 
+
+standard controls / server controls  : 
+label, button , textbox
+Listbox, checkboxlist, radiobuttonlist, listbox
+
+boxes : selected item
+        selected text
+        selected index 
+hyperlink, image
+
+html controls : 
+accept the data--print the data 
+textarea, textbox, checkbox, ..............
+
+JS ---validations 
+  validations in pages --- apply js code
+javascript function 
+  
+how to apply the css to web pages 
+
+Page Life cycle events : 
+
+Page Init
+   
+Page Load
+
+Render 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

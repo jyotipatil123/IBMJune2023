@@ -89,9 +89,13 @@ browsers ??
 
 hyperlink : <a>....
 
+Form controls : textbox, textarea, checkbox, radio button, label, 
+                password, fieldset-legend, select-drop down list, list box, 
+                
+Lists : orderedlist    ol
+        unorderedlist  ul
 
 
-C:\Users\Asus\Desktop\Simpli Learn1\cssprgs\flowers.gif
 
 ==============================================================
 Visual studio 2022
@@ -102,9 +106,73 @@ SQL server 2019
 Editor : 
    brackets ---HTML JS CSS
 
+================================================================================
+Javascript : 
 
+scripting langauge OOPS
+small code --task 
 
+IDE xxx 
+editor 
 
+<head>
+
+<body>
+
+<script>
+
+Javascript : angular js, react js, ember, node js, vue js .......
+
+data types :  char, string, bool, date,(int, decimal ,float, double) --->  Number
+declare variable : var 
+
+Operators : 
+assignment operator =
+comparison operator ==
+arithemtetic operator +  -   /   *   %
+realtional operators <   <=  >  >=  <>  !=
+logical opeartors   &&  ||  !
+
+Number 
+Date 
+
+functions : 
+   function --module --sub routines 
+============================================================================
+Practice programs 
+
+1. Create a Calculator program and display 
+addition, subtraction, multiplication, division, modulus results. 
+
+windows : 
+  alert     OK
+  prompt    input, ok, cancel
+  confirm   ok, cancel
+
+2. Accept 2 numbers 
+   calculate addition result
+   display addition result
+
+Enter first number : textbox1    5
+Enter second number : textbox2   2
+
+button
+
+addition result is : 7
+=========================================================
+
+CSS 
+cascade style sheet
+
+alignments , indentation, text-arrange particular way 
+
+types : internal , external, inline 
+
+IDE xxxxxxx
+
+id, name, class 
+
+Measurement units CSS : cm, mm, em, points, picas ,pixels
 
 
 

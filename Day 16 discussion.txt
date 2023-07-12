@@ -1,0 +1,42 @@
+Day 16 discussion
+
+MVC Day 2
+==============================================================
+
+Model
+Controller
+Views
+
+
+result types :
+action results , jsonresult, httpnotfoundresult, redirectresult..........
+
+
+introduction --strongly typed view
+
+create a controller
+add the actionresult methods
+add the views
+
+viewbag, viewdata, tempdata
+----------------------------------------------
+Layouts 
+  use existing layout pages
+  create customizeed layout pages
+
+Razor syntaxes 
+
+HTML helpers : 
+
+
+
+
+
+
+
+
+
+
+
+
+

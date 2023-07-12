@@ -1,0 +1,37 @@
+MVC Day 3
+
+custom helpers
+
+templated html helpers
+
+===========================================================
+
+validations in asp.net
+
+regular expression
+compare
+custom
+range
+required field
+validation summary 
+==============================
+accept only numbers
+accept only characters         javascript 
+
+===============================
+validations in MVC 
+   Model validation
+          email, required field, regular expression
+
+credit card, date, time.............
+
+
+
+CRUD 
+  create read  update delete 
+
+
+
+
+
+
